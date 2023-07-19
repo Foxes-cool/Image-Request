@@ -1,6 +1,6 @@
 name: Remove Image
 description: Requests an image to be removed
-title: "[Remove]: "
+title: "Remove request"
 assignees:
   - AMTitan
 body:

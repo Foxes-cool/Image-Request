@@ -1,6 +1,6 @@
 name: Add Image
 description: Requests an image to be added
-title: "[Addition]: "
+title: "Add request"
 assignees:
   - AMTitan
 body:
