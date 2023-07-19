@@ -1,0 +1,36 @@
+name: Add Image
+description: Requests an image to be added
+title: "[Addition]: "
+assignees:
+  - AMTitan
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reqesting an image to be added! Do note that if you have
+        multiple images, please make a new issue for each of the images, it
+        will make it much easier to backtrack and see the evolution of image
+        requests.
+  - type: input
+    id: url
+    attributes:
+      label: Image URL
+      description: |
+        Please provide a link to the image you want to use. Please use discord
+        or postimage.cc . Please send direct links that end with `.jpg` or
+        `.jpeg`
+      placeholder: ex. https://i.postimage.cc/..., https://cdn.discord.com/...
+    validations:
+      required: true
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: |
+        Please specify what tags this image falls in (https://foxes.cool/docs)
+        for current tags. If you add a tag please make sure it is not something
+        unique, and something that you could find other of.
+      placeholder: ex. fox, ...
+    validations:
+      required: true
+

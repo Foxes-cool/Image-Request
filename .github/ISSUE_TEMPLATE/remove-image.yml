@@ -1,0 +1,41 @@
+name: Remove Image
+description: Requests an image to be removed
+title: "[Remove]: "
+assignees:
+  - AMTitan
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Sorry that an image had to be removed.
+  - type: input
+    id: checksum
+    attributes:
+      label: Image SHA256
+      description: |
+        Please provide the sha256 of the image that you would like removed.
+        You can use a website like
+        https://emn178.github.io/online-tools/sha256_checksum.html to do it
+        for you.
+      placeholder: SHA256 checksum
+    validations:
+      required: true
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: |
+        Please specify what tags this image should be removed from. Put `all`,
+        if you would like this image removed from the site.
+      placeholder: Tags to be removed from
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: What reason?
+      description: |
+        Please specify what is the reason for the removal.
+      placeholder: This needs to be removed for ...
+    validations:
+      required: true
