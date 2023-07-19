@@ -11,7 +11,7 @@ body:
     id: url
     attributes:
       label: Image URL
-      description: Please provide a link to the image you want to use. Please use discord or [postimage.cc](https://postimage.cc). Please send direct links that end with `.jpg` or `.jpeg`.
+      description: Please provide a link to the image you want to use. Please use discord or [postimages.org](https://postimages.org). Please send direct links that end with `.jpg` or `.jpeg`.
       placeholder: ex. https://i.postimage.cc/..., https://cdn.discord.com/...
     validations:
       required: true
